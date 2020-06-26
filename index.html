@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Bootstrap cdn link-->
+    <!--bootstrap cdn link-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!--Font awesome-->
+    <link rel="stylesheet" href="vendors/css/all.min.css" />
+    <link rel="stylesheet" href="vendors/css/fontawesome.min.css" />
+    <!--slick slider link-->
+
+    <link rel="stylesheet" href="vendors/css/slick.css" />
+    <link rel="stylesheet" href="vendors/css/slick-theme.css" />
+    <!-- 3-d slider -->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
+    <link rel="stylesheet" href="vendors/css/normalize.css" />
+    <!-- Aos animation cdn link -->
+
+    <link rel="stylesheet" href="vendors/css/aos.css" />
+    <!--Project css link-->
+    <link rel="stylesheet" id="myStyle" href="resources/css/main.css" />
+    <link rel="stylesheet" href="resources/css/responsive.css" />
+  </head>
+ 
+  <body>
+    
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <!--Header section start from here-->
+ 
+  <header class="header clearfix">
+    <nav>
+      <div class="logo">
+        <a href="#home">
+          <h2>Mr. <span>Shajjad</span></h2>
+         
+        </a>
+      </div>    
+      <div class="main_nav_right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#project_section">Project</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div> 
+      <div class="mobile_menu">
+        <span onclick="openNav()">&#9776;</span>
+        <div id="myNav" class="overlay">
+          <a href="#!" onclick="closeNav()" class="closebtn">&times;</a>
+          <div class="overlay_content">
+            <a href="#home" onclick="closeNav()">Home</a>
+            <a href="#project_section" onclick="closeNav()">Project </a>
+            <a href="#skill" onclick="closeNav()">Skill</a>
+            <a href="#services" onclick="closeNav()">Services</a>
+            <a href="#about" onclick="closeNav()">About</a>
+            <a href="#testimonial" onclick="closeNav()">Testimonial</a>
+            <a href="#contact" onclick="closeNav()">contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Header section end from here-->
+  <!--Banner section start from here-->
+  <section class="banner_section full_wrapper" id="home" >
+    <div class="banner_bg" data-aos="zoom-in" data-aos-duration="2000">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="banner_left">
+              <h2>I am</h2>
+              <h2 data-aos="slide-right" data-aos-duration="2000">
+                promised
+              </h2>
+              <h2 data-aos="zoom-in" data-aos-duration="2000">to</h2>
+              <h2 data-aos="slide-right" data-aos-duration="2000">meat</h2>
+              <h2 data-aos="zoom-in" data-aos-duration="2000">Your</h2>
+              <h2 data-aos="slide-right" data-aos-duration="2000">
+                Heigh-est
+              </h2>
+              <h2>
+                satisfaction !
+              </h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="banner_right">
+              <h2 class="text1"></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Banner section end from here-->
+  <!-- Project section start from here -->
+  
+  <section class="project js__services_section" id="project_section">
+      <div class="wripple"> 
+        <div class="container"> 
+          <div class="row">
+            <div class="col-md-12">
+              <div class="project_heading"   data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+                <h2>My previous projects</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="project_content">
+                <div class="swiper-container"   data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+                  <div class="swiper-wrapper">
+                    <div class="slider_content swiper-slide">                  
+                      <div class="slider_img">
+                        <img src="resources/img/project1.jpg" alt="Image" />
+                        <div class="slider_text">
+                          <h2>Cuda portfolio template</h2>
+                          <p>Multiple dive compatible !</p>
+                          <p>Pixel perfect design !</p>
+                          <p>Eye catching !</p>
+                        </div>
+                      </div>
+                      <a href="https://shajjadur-rahman.github.io/PSD-to-HTML/" target="blank" class="button link_btn">View</a>
+                    </div>
+                    <div class="slider_content swiper-slide">
+                      <div class="slider_img">
+                        <img src="resources/img/project2.jpg" alt="Image" />
+                        <div class="slider_text">
+                          <h2>Responsive Dashboard-1</h2>
+                          <p>Multiple dive compatible !</p>
+                          <p>Color theme feature added</p>
+                          <p>Eye catching !</p>
+                        </div>
+                      </div>
+                      <a href="https://shajjadur-rahman.github.io/dashboard_2/dashboard.html" target="blank" class="button link_btn">View</a>
+                    </div>
+                    <div class="slider_content swiper-slide">
+                      <div class="slider_img">
+                        <img src="resources/img/project3.jpg" alt="Image" />
+                        <div class="slider_text">
+                          <h2>Responsive Dashboard-2</h2>
+                          <p>Multiple dive compatible !</p>
+                          <p>Color theme feature added</p>
+                          <p>Not available in github !</p>
+                        
+                        </div>
+                      </div>
+                      <a href="#!" class="button link_btn">View</a>
+                    </div>
+                    <div class="slider_content swiper-slide">
+                      <div class="slider_img">
+                        <img src="resources/img/project4.jpg" alt="Image" />
+                        <div class="slider_text">
+                          <h2>E-commerce site(Duhoot)</h2>
+                          <p>It's under processing !</p>
+                          <p>Coming soon...</p>
+                          <p>Please wait..</p>
+                        </div>
+                      </div>
+                      <a href="#!" class="button link_btn">View</a>
+                    </div>
+                    <div class="slider_content swiper-slide">
+                      <div class="slider_img">
+                        <img src="resources/img/project5.jpg" alt="Image" />
+                        <div class="slider_text">
+                          <h2>3-d signUp and </h2>
+                          <p>Login form</p>
+                          <p>It's amazing...</p>
+                          <p>So enjoy it...</p>
+                        </div>
+                      </div>
+                      <a href="https://shajjadur-rahman.github.io/signUp-login/signUp.html" target="blank" class="button link_btn">View</a>
+                    </div>
+                    <div class="slider_content swiper-slide">
+                      <div class="slider_img">
+                        <img src="resources/img/project6.jpg" alt="Image" />
+                        <div class="slider_text">
+                          <h2>Pop up login form</h2>
+                          <p>It's amazing too..</p>
+                          <p>Pixel perfect design !</p>
+                          <p>It will Shock you !</p>
+                        </div>
+                      </div>
+                      <a href="https://shajjadur-rahman.github.io/popUp_login_form/" target="blank" class="button link_btn">View</a>
+                    </div>
+                    <div class="slider_content swiper-slide">
+                      <div class="slider_img">
+                        <img src="resources/img/project3.jpg" alt="Image" />
+                        <div class="slider_text">
+                          <h2>Responsive Dashboard-2</h2>
+                          <p>Multiple dive compatible !</p>
+                          <p>Color theme feature added</p>
+                          <p>Not available in github !</p>
+                        </div>
+                      </div>
+                      <a href="#!" class="button link_btn">View</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Project section end from here -->
+   <!-- Skill section start from here -->
+ <section class="skill_section" id="skill"> 
+   <div class="wripple"> 
+        <div class="container">
+          <div class="row"> 
+            <div class="col-md-12">
+              <div class="skill_heading" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+                <h2>My Skills</h2>
+              </div>
+            </div>
+          </div>
+          <div class="skill_content_wrapper">
+            <div class="row">
+              <div class="col-xl-3 col-md-6 col-xs-12"> 
+                <div class="skill_card"  data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+                    <div class="skill_content"> 
+                      <div class="skill_item_front"> 
+                        <h2><span><i class="fab fa-html5"></i></span> HTML-5</h2>
+                        <h2><span><i class="fab fa-css3-alt"></i></span> CSS-3</h2>
+                        <p><span class="counter">98</span>%</p>
+                      </div>
+                      <div class="skill_item_back">
+                        <h2>Developer</h2>
+                        <h2>Shajjad</h2>
+                        <p><span><i class="fas fa-mobile-alt"></i></span> 01785259895</p>
+                        <p><span><i class="fas fa-envelope-square"></i></span> shaturngbd@gamil.com</p>
+                      </div>
+                    </div>    
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-xs-12"> 
+                  <div class="skill_card" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+                      <div class="skill_content"> 
+                        <div class="skill_item_front"> 
+                          <h2><span><i class="fab fa-js"></i></span> JavaScript</h2>
+                          <h2><span><i class="fab fa-js"></i></span> Jquery</h2>
+                          <p><span class="counter">95</span>%</p>
+                        </div>
+                        <div class="skill_item_back">
+                          <h2>Developer</h2>
+                          <h2>Shajjad</h2>
+                          <p><span><i class="fas fa-mobile-alt"></i></span> 01785259895</p>
+                          <p><span><i class="fas fa-envelope-square"></i></span> shaturngbd@gamil.com</p>
+                        </div>
+                      </div>    
+                  </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-xs-12"> 
+                <div class="skill_card"  data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+                      <div class="skill_content"> 
+                        <div class="skill_item_front"> 
+                          <h2><span><i class="fab fa-bootstrap"></i></span> Bootstrap</h2>
+                          <p><span class="counter">96</span>%</p>
+                        </div>
+                        <div class="skill_item_back">
+                          <h2>Developer</h2>
+                          <h2>Shajjad</h2>
+                          <p><span><i class="fas fa-mobile-alt"></i></span> 01785259895</p>
+                          <p><span><i class="fas fa-envelope-square"></i></span> shaturngbd@gamil.com</p>
+                        </div>
+                      </div>    
+                  </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-xs-12"> 
+                <div class="skill_card"  data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+                      <div class="skill_content"> 
+                        <div class="skill_item_front"> 
+                          <h2><span><i class="fas fa-plug"></i></span> Jquery plugins</h2>
+                          <p><span class="counter">99</span>%</p>
+                        </div>
+                        <div class="skill_item_back">
+                          <h2>Developer</h2>
+                          <h2>Shajjad</h2>
+                          <p><span><i class="fas fa-mobile-alt"></i></span> 01785259895</p>
+                          <p><span><i class="fas fa-envelope-square"></i></span> shaturngbd@gamil.com</p>
+                        </div>
+                      </div>    
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-xl-3 col-md-6 col-xs-12">
+                <div class="skill_card"  data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1000">
+                    <div class="skill_content"> 
+                      <div class="skill_item_front"> 
+                        <h2><span><i class="fab fa-python"></i></span> Python</h2>
+                        <p><span class="counter">98</span>%</p>
+                      </div>
+                      <div class="skill_item_back">
+                        <h2>Developer</h2>
+                        <h2>Shajjad</h2>
+                        <p><span><i class="fas fa-mobile-alt"></i></span> 01785259895</p>
+                        <p><span><i class="fas fa-envelope-square"></i></span> shaturngbd@gamil.com</p>
+                      </div>
+                    </div>    
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-xs-12">
+                <div class="skill_card"   data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1000">
+                    <div class="skill_content"> 
+                      <div class="skill_item_front"> 
+                        <h2><img src="resources/css/img/Capture.JPG" alt="" width="20rem" height="20rem"> Django</h2>
+                        <p><span class="counter">99</span>%</p>
+                      </div>
+                      <div class="skill_item_back">
+                        <h2>Developer</h2>
+                        <h2>Shajjad</h2>
+                        <p><span><i class="fas fa-mobile-alt"></i></span> 01785259895</p>
+                        <p><span><i class="fas fa-envelope-square"></i></span> shaturngbd@gamil.com</p>
+                      </div>
+                    </div>    
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-xs-12">
+                <div class="skill_card"   data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1000">
+                    <div class="skill_content"> 
+                      <div class="skill_item_front"> 
+                        <h2><span><i class="fas fa-database"></i></span> Database</h2>
+                        <p><span class="counter">99</span>%</p>
+                      </div>
+                      <div class="skill_item_back">
+                        <h2>Developer</h2>
+                        <h2>Shajjad</h2>
+                        <p><span><i class="fas fa-mobile-alt"></i></span> 01785259895</p>
+                        <p><span><i class="fas fa-envelope-square"></i></span> shaturngbd@gamil.com</p>
+                      </div>
+                    </div>    
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-xs-12">
+                <div class="skill_card"   data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1000">
+                    <div class="skill_content"> 
+                      <div class="skill_item_front"> 
+                        <h2><span><i class="fas fa-bug"></i></span> Bug fixing</h2>
+                      <p><span class="counter">95</span>%</p>
+                      </div>
+                      <div class="skill_item_back">
+                        <h2>Developer</h2>
+                        <h2>Shajjad</h2>
+                        <p><span><i class="fas fa-mobile-alt"></i></span> 01785259895</p>
+                        <p><span><i class="fas fa-envelope-square"></i></span> shaturngbd@gamil.com</p>
+                      </div>
+                    </div>    
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+   </div>
+ </section>
+ <!-- Services section start from here -->
+ <section class="service_section" id="services">
+   <div class="wripple">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="service_heading" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+           <H2>Providing Services</H2>
+          </div>
+        </div>
+      </div>
+      <div class="services_content">
+                <div class="row">
+                      <div class="col-md-4 col-sm-12"> 
+                          <div class="service_item"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                            <h2>Pst to html</h2>
+                            <div class="hidden_text">
+                              <p>SEO friendly design with Bootstrap</p>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-12"> 
+                            <div class="service_item" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                              <h2>Responsive</h2>
+                              <h2>Design</h2>
+                              <div class="hidden_text">
+                                <p>Multiple devices compatible</p>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-md-4 col-sm-12"> 
+                            <div class="service_item" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                              <h2>Update Previous</h2>
+                              <p> Design</p>
+                              <div class="hidden_text">
+                                <p>Modify previous design</p>
+                              </div>
+                            </div>
+                      </div>
+                </div>
+                <div class="row">
+                      <div class="col-md-4 col-sm-12">  
+                            <div class="service_item" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+                              <h2>E-commerce</h2>
+                              <p>By Django</p>
+                              <div class="hidden_text">
+                                <p>Django is best and supper fast !</p>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-md-4 col-sm-12"> 
+                        <div class="service_item" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+                          <h2>Blog-App</h2>
+                          <p>By Django</p>
+                          <div class="hidden_text">
+                            <p>Django ensure top security !</p>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="col-md-4 col-sm-12"> 
+                          <div class="service_item" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">              
+                              <h2>Inventory
+                              Management System and other apps !</h2>
+                              <div class="hidden_text">
+                                <p> Django provide best experience </p>
+                              </div>
+                          </div>
+                      </div>
+              </div>
+      </div>
+    </div>
+   </div>
+ </section>
+ <!-- Services section end from here -->
+
+ <!-- About section start from here -->
+ <section class="about_section full_wrapper" id="about"> 
+   <div class="wripple">
+     <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="about_heading" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+              <h2>About me </h2>
+            </div>
+          </div>
+        </div>
+        <div class="about_content">
+          <div class="row ">
+            <div class="col-md-3 col-sm-12">
+              <div class="my_img" data-aos="slide-right" data-aos-easing="linear" data-aos-duration="1000">
+                <img src="resources/img/profile2.png" alt="Image">
+                <div class="profile_text">
+                  <p>Never give up.... <br>
+                    Dream is waving ....... <br>
+                    It could be come true any time.... <br>
+                    Just try and keep continue..... <br>
+                    You must win..... <br>
+                    Mr. SHAJJAD
+                  </p>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-12">
+              <div class="my_info" data-aos="slide-left" data-aos-easing="linear" data-aos-duration="1000">
+                <h2>Hi there....</h2>
+                    <p>I'm  <strong>Mr. SHAJJAD</strong> who is full stack <strong>python developer since few years !</strong> Are you looking for <strong>Supper fast, High secured, SEO friendly, Multiple devices compatible, Pretty color combined, Pixel perfect and Eye catching</strong> web application ???? Be cool and don't be worried about your expectation ! You are in the right place and I'm here...... I'm able to provide your <strong>max satisfaction</strong>. Because I had been working for <strong>two years</strong> in this sector <strong>with professional mentality and full mind concentration </strong>. There are several previous clients are to much satisfied and happy with my service. My previous projects are here, you are welcome to visit <a href="#project_section">My Projects</a>. <br><strong> Client satisfaction is my dream, duty and responsibilities that's why I'm always dedicated to my client !</strong> <br> I'm providing following services as a full stack developer ........... <br>
+                    <strong>1. Front-end</strong> <br>
+                    <strong>PSD to HTML, Responsive-SEO friendly-Multi browsers and devices compatible design, Bug fixing, Update previous design and so on....</strong> <br>
+                    <strong>2. Back-end</strong> <br>
+                    I develop any static web site by <strong>Django.</strong> Django is <strong>most powerful and popular python framework world wide ! </strong> It ensure you <strong>top security in your database !</strong> And It's <strong>supper fast </strong>
+                    than any other programming language framework that can handle <strong>teen million data per second</strong> !!! That's why you can run you web app without any complication ! It will give you better experience ! <br>
+                    Finally I hope you will be happy to work with me !  <br>
+                    <strong>Stay safe, Stay well and be happy every single moment in your daily life</strong>. <br>
+                    Thank you so much for exploring me . <br>
+                    Developer Mr. SHAJJAD 
+                    </p>
+              </div>
+            </div>
+          
+        </div>
+        </div>
+     </div>
+   </div>
+ </section>
+ <!-- About section end from here -->
+   <!-- Testimonial section start from here  -->
+   <section class="testimonial_section" id="testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="test_heading" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+            <h2>Client feedback</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="test_content demo">
+            <div class="slider_item">
+              <div class="test_img">
+                <img src="resources/img/client.jpg" alt="Image">
+              </div>
+              <h1>Dannish Ivy</h1>
+              <div class="test_review"> 
+                <h2>Lorem ipsum dolor sit amet consectetur </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ex, cumque esse repellat placeat praesentium doloribus excepturi, aut suscipit, quod voluptate assumenda iure facere quisquam sint harum cupiditate at! Ullam?</p>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="test_img">
+                <img src="resources/img/client2.jpg" alt="Image">
+                
+              </div>
+              <h1>Emma</h1>
+              <div class="test_review"> 
+                <h2>Lorem ipsum dolor sit amet consectetur </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ex, cumque esse repellat placeat praesentium doloribus excepturi, aut suscipit, quod voluptate assumenda iure facere quisquam sint harum cupiditate at! Ullam?</p>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="test_img">
+                <img src="resources/img/client3.jpg" alt="Image">
+                
+              </div>
+              <h1>Olivia</h1>
+              <div class="test_review"> 
+                <h2>Lorem ipsum dolor sit amet consectetur </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ex, cumque esse repellat placeat praesentium doloribus excepturi, aut suscipit, quod voluptate assumenda iure facere quisquam sint harum cupiditate at! Ullam?</p>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="test_img">
+                <img src="resources/img/client4.jpg" alt="Image">
+             
+              </div>
+              <h1>Amelia</h1>
+              <div class="test_review"> 
+                <h2>Lorem ipsum dolor sit amet consectetur </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ex, cumque esse repellat placeat praesentium doloribus excepturi, aut suscipit, quod voluptate assumenda iure facere quisquam sint harum cupiditate at! Ullam?</p>
+              </div>
+            </div>
+          </div>  
+        </div>
+        
+      </div>
+    </div>
+
+</section>
+<!-- Testimonial section end from here -->
+ <!-- Contact section start from here -->
+ <section class="contact_section" id="contact">
+   <div class="wripple">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+           <div class="contact_heading">
+             <h2>Get in touch</h2>
+           </div>
+         </div>
+       </div>
+       <form action="#contact" method="">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <input type="text" name="name" id="" placeholder="Write your name...." required>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="email" name="email" id="" placeholder="Write your email...." required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Meassage</h2>
+            <textarea name="" id="" cols="30" rows="8" placeholder="Write message here..." required></textarea>
+            <button type="reset">reset</button>
+            <button type="submit">send</button>
+          </div>
+        </div>
+       </form>
+     </div>
+   </div>
+ </section>
+ <!-- Contact section end from here -->
+ <!-- Footer section start from here -->
+ <footer class="footer_section">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="footer_left">
+          <p>&copy; Developer Mr. Shajjad all rights reserved</p>
+          <P>shaturngbd@gmail.com</P>
+         </div>
+       
+
+         <ul class="footer_menu">
+          <li><a href="https://www.facebook.com/Shajjad143" target="blank">Facebook </a></li>
+          <li><a href="#!">Skype </a></li>
+          <li><a href="https://github.com/Shajjadur-Rahman" target="blank">GitHub </a></li>
+          <li><a href="#!">LinkedIn</a></li>
+          <li><a href="#!">Behance</a></li>
+          <li><a href="#!">Dribbble</a></li>
+          <li><a href="#!"> Google+ </a></li>
+         </ul>
+     
+     </div>
+   </div>
+ </footer>
+ 
+   <!-- Footer section end from here -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- type.js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <!-- waypoint for sticky menu -->
+
+    <!-- counter_up cdn link -->
+    <script src="vendors/js/html5shiv.min.js" async defer></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/selectivizr-min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/js/jquery.counterup.min.js"></script>
+    <script src="vendors/js/jquery.ripples-min.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <!--slick slider js link-->
+    <script src="vendors/js/slick.min.js"></script>
+   
+    <!--Aos animation cdn link-->
+    <script src="vendors/js/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <script src="resources/js/main.js"></script>
+  
+  </body>
+
+</html>

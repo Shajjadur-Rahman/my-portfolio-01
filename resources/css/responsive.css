@@ -1,0 +1,118 @@
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+  .main_nav_right {
+    display: none;
+  }
+  .mobile_menu {
+    display: block;
+  }
+  .mobile_menu span {
+    display: block;
+  }
+  .banner_left {
+    padding-top: 1rem;
+  }
+  .banner_left h2 {
+    font-size: 4rem;
+  }
+  .project .slider_content .slider_img {
+    height: 23rem;
+  }
+  .project .slider_content {
+    height: 33rem;
+  }
+  .about_section .my_profile_img {
+    width: 27%;
+  }
+  .testimonial_section .test_content {
+    width: 90%;
+  }
+  .contact_section form {
+    width: 90%;
+  }
+  .footer_section .footer_menu li a {
+    padding: 0 0.5rem;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .banner_right {
+    margin-top: 15rem;
+  }
+  .contact_section form {
+    width: 100%;
+  }
+  .footer_section .footer_left {
+    margin-top: 2rem;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .footer_section .footer_left p {
+    font-size: 2rem;
+  }
+  .footer_section .footer_menu {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .footer_section .footer_menu li a {
+    margin-top: 0.8rem;
+    font-size: 1.8rem;
+    padding: 2rem 1.8rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .banner_right {
+    margin-top: -21rem;
+  }
+  .banner_left h2 {
+    font-size: 3rem;
+  }
+  .banner_left h2 {
+    font-size: 3rem;
+  }
+  .project .slider_content {
+    height: 29rem;
+  }
+  .project .slider_content .slider_img {
+    height: 19rem;
+  }
+  .project .slider_content .slider_img .slider_text {
+    padding-top: 1rem;
+    line-height: 2rem;
+  }
+  .project .slider_content .slider_img .slider_text {
+    letter-spacing: 0.2rem;
+  }
+  .project .slider_content .link_btn {
+    margin: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .about_section .my_img {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+  }
+  .about_section .my_img img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  .about_section .my_info {
+    padding: 0;
+  }
+  .about_section .my_info p {
+    margin-left: 0;
+  }
+  .contact_section form input[type="text"],
+  .contact_section form input[type="email"] {
+    margin: 1.8rem 0;
+  }
+  .footer_section .footer_menu li a {
+    margin-top: 0.6rem;
+    font-size: 1.4rem;
+    padding: 2rem 1rem;
+  }
+}
